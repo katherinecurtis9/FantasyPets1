@@ -17,7 +17,7 @@
 body {
     font-size: 1.7em;
     font-family: Arial narrow, san-serif;
-	background-color: white;
+	background-color: Grey;
 }
 
 #container {
@@ -52,30 +52,30 @@ nav ul {
 }
 
 nav ul li a {
-    padding: 5px;
-    color: gray;
+    padding: 2px;
+    color: Blue;
     text-decoration: none;
     display:block;
 }
 
 nav ul li a:hover {
-    background: black;
+    background: Black;
     border-radius: 10px;
     color: white;
 }
 
 #main {
-    width: 446px;
-    padding: 10px;
+    width: 400px;
+    padding: 8px;
     float: left;
-    color: black;
-    border-left: 2px solid;
-    border-right: 2px solid;    
+    color: Navy;
+    border-left: 5px solid;
+    border-right: 5px solid;    
     background-image: url(images/ricepaper.jpg); 
 }
 
 #main p {
-    text-indent: 1.5em;
+    text-indent: 1.0em;
 }
 
 figure{
@@ -84,7 +84,7 @@ figure{
 }
 
 figcaption {
-    font-style: italic;
+    font-style: Italic;
 }
 
 aside {
@@ -115,9 +115,9 @@ footer {
     width: 910px;
     margin: 0;
     padding: 10px;
-    background-color: gray;
+    background-color: Blue;
     clear: both;
-    color: wheat;
+    color: Black;
     font-weight: bold;
     text-align: center;
 	border-bottom-left-radius: 25px;
@@ -131,7 +131,7 @@ footer {
     border-radius: 25px;
 }/* navigation for footer */
 footer a:link {
-    color: white;
+    color: Black;
     text-decoration: none;
 }
 
