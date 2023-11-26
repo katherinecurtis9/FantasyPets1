@@ -15,7 +15,7 @@
 }
 
 body {
-    font-size: 1.7em;
+    font-size: 1.5em;
     font-family: Arial narrow, san-serif;
 	background-color: Grey;
 }
@@ -47,19 +47,19 @@ nav {
 }
 
 nav ul {
-    font-weight: bold;
+    font-weight: italic;
     list-style: none;
 }
 
 nav ul li a {
     padding: 2px;
-    color: Blue;
+    color: Black;
     text-decoration: none;
     display:block;
 }
 
 nav ul li a:hover {
-    background: Black;
+    background: Blue;
     border-radius: 10px;
     color: white;
 }
@@ -68,14 +68,14 @@ nav ul li a:hover {
     width: 400px;
     padding: 8px;
     float: left;
-    color: Navy;
-    border-left: 5px solid;
-    border-right: 5px solid;    
+    color: Black;
+    border-left: 4px solid;
+    border-right: 4px solid;    
     background-image: url(images/ricepaper.jpg); 
 }
 
 #main p {
-    text-indent: 1.0em;
+    text-indent: 3.0em;
 }
 
 figure{
@@ -89,14 +89,14 @@ figcaption {
 
 aside {
     width: 200px;
-    margin: 0 5px 0 5px;
+    margin: 0 20px 0 5px;
     padding: 10px;
     float: right;
 }
 
 aside p {
     font-style: italic;
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 
 h2 {
