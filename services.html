@@ -10,7 +10,7 @@
 	
 	-->
 
-<meta http-equiv = "Content-Type" content = "text/html; charset=utf-8" />
+<meta http-equiv="Content-Type" content = "text/html; charset=utf-8" />
 <title>Fantasy Pets</title>
    <link href="css/styles.css" rel="stylesheet" />
 
@@ -32,10 +32,10 @@
 		 
 <nav> 
 	<ul>
-	  <li><a href = "index.html">Home</a></li>
-	  <li><a href = "services.html">Services Offered</a></li>
-	  <li><a href = "reviews.html">Customer Reviews</a></li>
-	  <li><a href = "directions.html">Directions</a></li>
+	  <li><a href="index.html">Home</a></li>
+	  <li><a href="services.html">Services Offered</a></li>
+	  <li><a href="reviews.html">Customer Reviews</a></li>
+	  <li><a href="directions.html">Directions</a></li>
 	</ul>
 	  
 <figure> 
@@ -50,34 +50,135 @@
 <h2>Fantasy Pets</h2>
 <p>
 	</p>
-<h3>Base Price</h3>
-	<p> Dog	$129.99</p>
-	<p>	Cat $89.99</p>
-	<p>	Lizard $69.99</p>
-	<p> Parrot $99.99</p>
-	<p> Goat $69.99 </p>
-	<p> Pig $49.99 </p>
+<h3></h3>
+	<!DOCTYPE html>
+<html>
+<style>
+table, th, td {
+  border:5px solid black
+ 
+ ;
+}
+</style>
+<body>
+
+<h2>Pricing</h2>
+
+<table style="width:100%">
+  <tr>
+    <th>Pet</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>Dog</td>
+    <td>$129.99</td>
+  </tr>
+  <tr>
+    <td>Cat</td>
+    <td>$89.99</td>
+  </tr>
+  <tr>
+    <td>Lizard</td>
+    <td>$69.99</td>
+  </tr>
+  <tr>
+    <td>Goat</td>
+    <td>$69.99</td>
+  </tr>
+  <tr>
+    <td>Parrot</td>
+    <td>$99.99</td>
+  </tr>
+  <tr>
+    <td>Pig</td>
+    <td>$49.99</td>
+  </tr>
+</table>
+
+
+</body>
+</html>
+
+
 		
 	</p>
-<h3>Additions</h3>
-	<p>Choice Of Color $12.99</p>
-	<p>Personality Choice $29.99</p>
-	<p>*calm</p>
-	<p>	*energetic</p>
-	<p>	*hunting</p>
-	<p> *male/female </p>
-	<p> Fully Trained $49.99</p>
-</article> <!-- end main -->
-
-<aside> 
-
 <h3>Return Policy</h3>
 
 	<p> 30 days full refund</p>
 	<p> 60 days 50% refund<p>
 	<p>90 days plus NO REFUND </p>
-	<p> a shipping container for returned goods will be mailed once return process is started and the 
-	refund will be issued within 24 hours of inspection of the product. </P>
+	<p>Refunds are subject to be denied</p>
+</article> <!-- end main -->
+
+<aside> 
+
+	
+		  <form id="survey" action="http://www.example.com/redball/survey" method="post">
+	   <fieldset id="custInfo">
+			<legend>Customer Information</legend>
+			
+		<div class="formRow">
+			<label for="name">Name*</label>
+			<input name="custName" id="name" type="text" placeholder="first and last name" required />
+		</div>	
+			
+			
+		<div class="formRow">
+			<label for="street">Street address</label>
+			<input name="custStreet" id="street" type="text" />
+		</div>
+			
+		<div class="formRow">
+			<label for="city">City</label>
+			<input name="custCity" id="city" type="text" value="Ormond Beach" />
+		</div>
+		
+		<div class="formRow">
+			<label for="state">State</label>
+			<input name="custState" id="state" type="text" value="FL" />
+		</div>
+		
+		<div class="formRow">
+			<label for="zip">Postal code</label>
+			<input name="custZip" id="zip" type="text" placeholder="nnnnn (-nnnn)"
+					pattern="^\d{5}(-\d{4})?$" />
+		</div>
+		
+		<div class="formRow">
+			<label for="phone">Phone Number</label>
+			<input name="custPhone" id="phone" type="tel" placeholder="(nnn) nnn-nnnn"
+				pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" />
+		</div>
+		
+		<div class="formRow">
+			<label for="mail">E-mail*</label>
+			<input name="custEmail" id="mail" type="email" required />
+		</div>
+		
+		<div class="formRow">
+		<label for="info">Where did you hear about us?
+		<br />(select all that apply)
+		</label>
+		<select name="infoSrc" id="info" size="5" multiple>
+			<option value="internet">Facebook</option>
+			<option value="mag">Twitter</option>
+			<option value="news">Other Site</option>
+			<option value="word">Word of Mouth</option>
+			<option value="other">Other</option>
+		</select>
+		</div>
+		
+		<div class="formRow">
+			<label for="rangeBox">Rate the overall service<br />
+				(0=poor; 10=great)</label>
+			0
+			<input name="serviceRate" id="rangeBox" type="range"
+				value="5" step="1" min="0" max="10" />
+			10
+		</div>
+		
+		<label for="commBox">Tell us more about your experience!</label>
+		<textarea name="custExp" id="commBox"></textarea>
 
 
   <figcaption> Fantasy Pets<br />
@@ -92,7 +193,7 @@
 	1234 Elmwood Ave &bull; Junction City, KS 66441<br />
 	<a href = "https://facebook.com" target="blank">Facebook</a> | 
 	<a href = "https://twitter.com" target="blank">Twitter</a> |
-	<a href = "tel:+ 7855557456">Telephone</a> | 
+	<a href = "tel: 7855557456">Telephone</a> | 
 	<a href = "mailto:katherinecurtis76@gmail.com">Contact Us</a></p>
 
 </footer>  

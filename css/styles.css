@@ -24,7 +24,7 @@ body {
     width: 930px;
     border-width: 1px;
     margin: 0 auto;
-    background-color: white;
+    background-color: ;
 }
 
 
@@ -47,7 +47,7 @@ nav {
 }
 
 nav ul {
-    font-weight: italic;
+    font-weight: 800;
     list-style: none;
 }
 
@@ -71,7 +71,7 @@ nav ul li a:hover {
     color: Black;
     border-left: 4px solid;
     border-right: 4px solid;    
-    background-image: url(images/ricepaper.jpg); 
+    background-color: Grey; 
 }
 
 #main p {
@@ -115,7 +115,7 @@ footer {
     width: 910px;
     margin: 0;
     padding: 10px;
-    background-color: Blue;
+    background-color: Grey;
     clear: both;
     color: Black;
     font-weight: bold;
