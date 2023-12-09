@@ -1,22 +1,25 @@
 @charset "utf-8";
+
+
 /*
    sample start file for final project - educational use only
    
-   Author:   
-   Date:     
+   Author:Katherine Curtis   
+   Date:  12-9-23   
    
   
 
 */
 
-* {
+
+ {
     margin: 0; 
     padding: 0;
 }
 
 body {
     font-size: 1.5em;
-    font-family: Arial narrow, san-serif;
+    font-family: 'Arial narrow', san-serif;
 	background-color: Grey;
 }
 
@@ -24,7 +27,6 @@ body {
     width: 930px;
     border-width: 1px;
     margin: 0 auto;
-    background-color: ;
 }
 
 
@@ -143,4 +145,9 @@ footer a:visited {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+table, th, td {
+  border:5px solid black;
+ width: 100%;
 }
